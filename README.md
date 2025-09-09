@@ -1,6 +1,6 @@
 # @kellyselden/eslint-config
 
-[![npm version](https://badge.fury.io/js/@kellyselden/eslint-config.svg)](https://badge.fury.io/js/@kellyselden/eslint-config)
+[![npm version](https://badge.fury.io/js/%40kellyselden%2Feslint-config.svg)](https://badge.fury.io/js/%40kellyselden%2Feslint-config)
 
 My ESLint config
 
