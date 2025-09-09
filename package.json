@@ -2,22 +2,39 @@
   "name": "@kellyselden/eslint-config",
   "version": "0.0.0",
   "description": "My ESLint config",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "https://github.com/kellyselden/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/kellyselden/eslint-config/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kellyselden/eslint-config.git"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
-  "author": "Kelly Selden",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kellyselden/eslint-config/issues"
+  "author": "Kelly Selden",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint"
   },
-  "homepage": "https://github.com/kellyselden/eslint-config#readme"
+  "dependencies": {
+    "@eslint/config-helpers": "0.3.1",
+    "eslint-config-sane-node": "^6.0.2",
+    "eslint-plugin-mocha": "^10.5.0"
+  },
+  "devDependencies": {
+    "@kellyselden/eslint-config": "file:.",
+    "@kellyselden/node-template": "6.9.0",
+    "eslint": "^9.34.0",
+    "renovate-config-standard": "2.4.2"
+  },
+  "engines": {
+    "node": ">=20.9"
+  }
 }
